@@ -7,9 +7,9 @@ html, body {
   width: 100%;
 }
 #unity-container.unity-desktop { 
-  width: 95%;
+  /* width: 95%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
 }
 .fullscreen {
   font-size: 4rem;
