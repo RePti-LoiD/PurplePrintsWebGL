@@ -6,10 +6,15 @@ html, body {
   text-align: center;
   width: 100%;
 }
-#unity-container.unity-desktop { left: 0; top: 0; transform: translate(0, 0) }
+#unity-container.unity-desktop { 
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .fullscreen {
   font-size: 4rem;
 }
 canvas {
-  /* margin-left: 60px; */
+  margin-left: auto;
+  margin-right: auto;
 }

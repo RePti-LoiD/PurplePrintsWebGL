@@ -1,6 +1,4 @@
 body { padding: 0; margin: 0; overflow: hidden;}
-#unity-container { position: absolute }
-#unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
 #unity-container.unity-mobile { width: 100%; height: 100% }
 #unity-canvas { background: #1F1F20 }
 .unity-mobile #unity-canvas { width: 100%; height: 100% }
@@ -11,13 +9,12 @@ body { padding: 0; margin: 0; overflow: hidden;}
 #unity-footer { position: relative }
 .unity-mobile #unity-footer { display: none }
 #unity-webgl-logo { float:left; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
-#unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
+#unity-build-title {line-height: 38px; font-family: arial; font-size: xx-large }
 #unity-fullscreen-button {
   position: absolute;
-  margin-left:97%;
-  margin-top: -3.5%;
+  margin-left:96.5%;
+  margin-top: -3.7%;
   width: 50px; height: 50px;
   background-image: url("fullscreen.png");
   background-size: cover;
 }
-#unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; display: none }
