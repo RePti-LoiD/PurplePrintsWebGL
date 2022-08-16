@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+#unity-build-title {
+  text-align: center;
+  width: 100%;
+}
+#unity-container.unity-desktop { left: 0; top: 0; transform: translate(0, 0) }
+.fullscreen {
+  font-size: 4rem;
+  
+}
