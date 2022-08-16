@@ -9,5 +9,7 @@ html, body {
 #unity-container.unity-desktop { left: 0; top: 0; transform: translate(0, 0) }
 .fullscreen {
   font-size: 4rem;
-  
+}
+canvas {
+  /* margin-left: 60px; */
 }
